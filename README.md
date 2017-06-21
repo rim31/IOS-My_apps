@@ -14,3 +14,7 @@ cp /sgoinfre/goinfre/Perso/svelhinh/42_Subjects/01_Piscines/iOS_Swift/xcode-them
 ##links : D06
 
 https://www.raywenderlich.com/76147/uikit-dynamics-tutorial-swift
+
+collision
+
+https://www.appsfoundation.com/post/how-to-use-ui-dynamics-ios-9
