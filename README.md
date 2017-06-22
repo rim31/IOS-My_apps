@@ -18,3 +18,6 @@ https://www.raywenderlich.com/76147/uikit-dynamics-tutorial-swift
 collision
 
 https://www.appsfoundation.com/post/how-to-use-ui-dynamics-ios-9
+
+##link : d08
+https://www.youtube.com/watch?v=WcQkBYu86h8
