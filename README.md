@@ -1,6 +1,6 @@
 ## IOS-My_apps
 
-![Preview](https://github.com/rim31/my_instagram/blob/master/images/screeshot1.png)
+![Preview](https://github.com/rim31/IOS-My_apps/blob/master/images_preview/Screen%20Shot%202017-06-23%20at%2012.09.41%20PM.png)
 
 
 ## autoresize tableview
