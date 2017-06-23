@@ -1,5 +1,19 @@
 ## IOS-My_apps
 
+scrollView, tableView, GPS
+
+![Preview](https://github.com/rim31/IOS-My_apps/blob/master/images_preview/Screen%20Shot%202017-06-23%20at%203.51.41%20PM.png)
+
+![Preview](https://github.com/rim31/IOS-My_apps/blob/master/images_preview/Screen%20Shot%202017-06-23%20at%204.09.17%20PM.png)
+
+![Preview](https://github.com/rim31/IOS-My_apps/blob/master/images_preview/Screen%20Shot%202017-06-23%20at%204.08.10%20PM.png)
+
+![Preview](https://github.com/rim31/IOS-My_apps/blob/master/images_preview/Screen%20Shot%202017-06-23%20at%204.08.47%20PM.png)
+
+![Preview](https://github.com/rim31/IOS-My_apps/blob/master/images_preview/Screen%20Shot%202017-06-23%20at%2012.10.14%20PM.png)
+
+[[https://github.com/rim31/IOS-My_apps/blob/master/images_preview/Screen%20Shot%202017-06-23%20at%2012.10.14%20PM.png]]
+
 ## autoresize tableview
 tableView.rowHeight = UITableViewAutomaticDimension
 tableView.estimatedRowHeight = 100
@@ -27,3 +41,8 @@ https://www.appsfoundation.com/post/how-to-use-ui-dynamics-ios-9
 https://www.youtube.com/watch?v=WcQkBYu86h8
 
 https://medium.com/@MichalSverak/coredata-and-swift-3-c135822250ce
+
+## linnk : rush01
+
+https://www.raywenderlich.com/110054/routing-mapkit-core-location
+
