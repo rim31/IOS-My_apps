@@ -41,3 +41,8 @@ https://www.appsfoundation.com/post/how-to-use-ui-dynamics-ios-9
 https://www.youtube.com/watch?v=WcQkBYu86h8
 
 https://medium.com/@MichalSverak/coredata-and-swift-3-c135822250ce
+
+## linnk : rush01
+
+https://www.raywenderlich.com/110054/routing-mapkit-core-location
+
