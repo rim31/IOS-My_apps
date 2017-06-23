@@ -1,6 +1,6 @@
 ## IOS-My_apps
 
-scrollView, tableView, GPS, calculcator
+# scrollView, tableView, GPS, gravity/animation/elasticity, calculcator
 
 ![Preview](https://github.com/rim31/IOS-My_apps/blob/master/images_preview/Screen%20Shot%202017-06-23%20at%203.51.41%20PM.png)
 
