@@ -1,5 +1,8 @@
 ## IOS-My_apps
 
+![Preview](https://github.com/rim31/my_instagram/blob/master/images/screeshot1.png)
+
+
 ## autoresize tableview
 tableView.rowHeight = UITableViewAutomaticDimension
 tableView.estimatedRowHeight = 100
