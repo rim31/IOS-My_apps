@@ -8,24 +8,12 @@
 
 import UIKit
 
-class ViewController: UICollectionViewController {
-    
+class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+
     override func viewDidLoad() {
-        super.viewDidLoad()
     }
-    
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "imgSegue" {
-            if let destinationView = segue.destination as? ImgViewController  {
-                let cell = sender as! MyCollectionViewCell
-                destinationView.image = cell.imageView.image
-            }
-        }
-    }
-    
     let reuseIdentifier = "cell" // identifier de la cellule immage
-    var items = ["https://s-media-cache-ak0.pinimg.com/originals/a3/b0/ac/a3b0acc7fd85878fa4f69367a8be354f.jpg", "https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/dbbpp4vxoae-z42.jpg", "https://www.nasa.gov/sites/default/files/thumbnails/image/agn_fnl_lcook-1.jpg", "https://assets.letemps.ch/sites/default/files/media/2017/06/03/file6v66p10odvl1d0g2r93z.jpg"]// les immages
+    var items = ["https://s-media-cache-ak0.pinimg.com/originals/a3/b0/ac/a3b0acc7fd85878fa4f69367a8be354f.jpg", "https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/dbbpp4vxoae-z42.jpg", "https://eoimages.gsfc.nasa.gov/images/imagerecords/82000/82227/klyuchevskaya_oli_2013293_lrg.jpg", "https://assets.letemps.ch/sites/default/files/media/2017/06/03/file6v66p10odvl1d0g2r93z.jpg"]// les immages
     
     
     func showAlert(_ msg: String)// fonction show alert
@@ -36,20 +24,14 @@ class ViewController: UICollectionViewController {
         self.present(Alert, animated: true, completion: nil)//on appelle la fonction
     }
     
-    
-    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        self.performSegue(withIdentifier: "segueImg", sender: collectionView.cellForItem(at: indexPath))
-    }
-    
-    
     // On compte le nombre d'image pour la collection view
-    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
     {
         return items.count
     }
     
     // Chemin de chaque celle d'image
-    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
     {
         // comme l'exo d03, on caste
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: self.reuseIdentifier, for: indexPath as IndexPath) as! MyCollectionViewCell

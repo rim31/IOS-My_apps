@@ -12,19 +12,17 @@
 		BA37609E1EF43BA70034E107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA37609C1EF43BA70034E107 /* Main.storyboard */; };
 		BA3760A01EF43BA70034E107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA37609F1EF43BA70034E107 /* Assets.xcassets */; };
 		BA3760A31EF43BA70034E107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3760A11EF43BA70034E107 /* LaunchScreen.storyboard */; };
-		BA8D310E1EF45C5D00C7C5B1 /* ImgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8D310D1EF45C5D00C7C5B1 /* ImgViewController.swift */; };
 		BADFC7C21EF4406E0079948E /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADFC7C11EF4406E0079948E /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BA3760951EF43BA70034E107 /* lop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3760951EF43BA70034E107 /* d03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = d03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA3760981EF43BA70034E107 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA37609A1EF43BA70034E107 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA37609D1EF43BA70034E107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA37609F1EF43BA70034E107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA3760A21EF43BA70034E107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA3760A41EF43BA70034E107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA8D310D1EF45C5D00C7C5B1 /* ImgViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImgViewController.swift; sourceTree = "<group>"; };
 		BADFC7C11EF4406E0079948E /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,7 +40,7 @@
 		BA37608C1EF43BA70034E107 = {
 			isa = PBXGroup;
 			children = (
-				BA3760971EF43BA70034E107 /* lop */,
+				BA3760971EF43BA70034E107 /* d03 */,
 				BA3760961EF43BA70034E107 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,32 +48,32 @@
 		BA3760961EF43BA70034E107 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BA3760951EF43BA70034E107 /* lop.app */,
+				BA3760951EF43BA70034E107 /* d03.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BA3760971EF43BA70034E107 /* lop */ = {
+		BA3760971EF43BA70034E107 /* d03 */ = {
 			isa = PBXGroup;
 			children = (
 				BA3760981EF43BA70034E107 /* AppDelegate.swift */,
 				BA37609A1EF43BA70034E107 /* ViewController.swift */,
 				BA37609C1EF43BA70034E107 /* Main.storyboard */,
-				BA8D310D1EF45C5D00C7C5B1 /* ImgViewController.swift */,
 				BA37609F1EF43BA70034E107 /* Assets.xcassets */,
 				BA3760A11EF43BA70034E107 /* LaunchScreen.storyboard */,
 				BA3760A41EF43BA70034E107 /* Info.plist */,
 				BADFC7C11EF4406E0079948E /* MyCollectionViewCell.swift */,
 			);
+			name = d03;
 			path = lop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BA3760941EF43BA70034E107 /* lop */ = {
+		BA3760941EF43BA70034E107 /* d03 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA3760A71EF43BA70034E107 /* Build configuration list for PBXNativeTarget "lop" */;
+			buildConfigurationList = BA3760A71EF43BA70034E107 /* Build configuration list for PBXNativeTarget "d03" */;
 			buildPhases = (
 				BA3760911EF43BA70034E107 /* Sources */,
 				BA3760921EF43BA70034E107 /* Frameworks */,
@@ -85,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = lop;
+			name = d03;
 			productName = lop;
-			productReference = BA3760951EF43BA70034E107 /* lop.app */;
+			productReference = BA3760951EF43BA70034E107 /* d03.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -106,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BA3760901EF43BA70034E107 /* Build configuration list for PBXProject "lop" */;
+			buildConfigurationList = BA3760901EF43BA70034E107 /* Build configuration list for PBXProject "d03" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -119,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BA3760941EF43BA70034E107 /* lop */,
+				BA3760941EF43BA70034E107 /* d03 */,
 			);
 		};
 /* End PBXProject section */
@@ -144,7 +142,6 @@
 			files = (
 				BA37609B1EF43BA70034E107 /* ViewController.swift in Sources */,
 				BA3760991EF43BA70034E107 /* AppDelegate.swift in Sources */,
-				BA8D310E1EF45C5D00C7C5B1 /* ImgViewController.swift in Sources */,
 				BADFC7C21EF4406E0079948E /* MyCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +288,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BA3760901EF43BA70034E107 /* Build configuration list for PBXProject "lop" */ = {
+		BA3760901EF43BA70034E107 /* Build configuration list for PBXProject "d03" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA3760A51EF43BA70034E107 /* Debug */,
@@ -300,7 +297,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA3760A71EF43BA70034E107 /* Build configuration list for PBXNativeTarget "lop" */ = {
+		BA3760A71EF43BA70034E107 /* Build configuration list for PBXNativeTarget "d03" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA3760A81EF43BA70034E107 /* Debug */,

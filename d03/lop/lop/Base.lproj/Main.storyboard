@@ -78,48 +78,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Images" id="nm7-F0-l4s"/>
-                    <connections>
-                        <segue destination="hXQ-3R-rgc" kind="show" identifier="segueImg" id="9e5-Oc-KrP"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1041" y="777"/>
-        </scene>
-        <!--Img View Controller-->
-        <scene sceneID="Z7w-PE-abU">
-            <objects>
-                <viewController id="hXQ-3R-rgc" customClass="ImgViewController" customModule="lop" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="IXf-Ob-crB"/>
-                        <viewControllerLayoutGuide type="bottom" id="6NY-s1-svj"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="iyF-98-3dK">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lSx-y3-eQE">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <connections>
-                                    <outlet property="delegate" destination="hXQ-3R-rgc" id="95W-Ja-BhK"/>
-                                </connections>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="lSx-y3-eQE" firstAttribute="height" secondItem="iyF-98-3dK" secondAttribute="height" id="78U-aq-LZ0"/>
-                            <constraint firstItem="lSx-y3-eQE" firstAttribute="centerX" secondItem="iyF-98-3dK" secondAttribute="centerX" id="UPv-sM-hTC"/>
-                            <constraint firstItem="lSx-y3-eQE" firstAttribute="width" secondItem="iyF-98-3dK" secondAttribute="width" id="cfb-hP-opd"/>
-                            <constraint firstItem="lSx-y3-eQE" firstAttribute="centerY" secondItem="iyF-98-3dK" secondAttribute="centerY" id="orl-ch-CaB"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="scrollView" destination="lSx-y3-eQE" id="k0Y-2f-f2Y"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rvf-fl-vFr" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1846" y="777"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="GyE-5q-1PS">

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EBD755E81FEA3D093ABA1D4B1FFE4EC6FBE5C095",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EBD755E81FEA3D093ABA1D4B1FFE4EC6FBE5C095" : 9223372036854775807,
+    "984F912368DE688D0F14F8F4AD4CA3EA8999D549" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "42165196-04B0-484E-90A1-14911395D306",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EBD755E81FEA3D093ABA1D4B1FFE4EC6FBE5C095" : "d03\/",
+    "984F912368DE688D0F14F8F4AD4CA3EA8999D549" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "d03",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "d03\/d03.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rim31\/IOS-My_apps.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "984F912368DE688D0F14F8F4AD4CA3EA8999D549"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "vogsphere.42.fr:intra\/2017\/activities\/piscine_swift_ios_day_03\/oseng",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EBD755E81FEA3D093ABA1D4B1FFE4EC6FBE5C095"
+    }
+  ]
+}
