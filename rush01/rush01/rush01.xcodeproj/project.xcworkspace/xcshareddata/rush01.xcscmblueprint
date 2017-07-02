@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "29DAF6A2B39C08A61AEA281BA6B507A6BF3BF6E1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "57E7D442A07046B0698C778E549FB7A990374324" : 9223372036854775807,
+    "29DAF6A2B39C08A61AEA281BA6B507A6BF3BF6E1" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "060C0383-B1F5-4CEB-8FAE-9ED1EC5C9769",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "57E7D442A07046B0698C778E549FB7A990374324" : "d05\/",
+    "29DAF6A2B39C08A61AEA281BA6B507A6BF3BF6E1" : "rush01\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "rush01",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "rush01\/rush01.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "vogsphere.42.fr:intra\/2017\/activities\/piscine_swift_ios_rush01\/oseng7",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "29DAF6A2B39C08A61AEA281BA6B507A6BF3BF6E1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "vogsphere.42.fr:intra\/2017\/activities\/piscine_swift_ios_day_05\/oseng",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "57E7D442A07046B0698C778E549FB7A990374324"
+    }
+  ]
+}
