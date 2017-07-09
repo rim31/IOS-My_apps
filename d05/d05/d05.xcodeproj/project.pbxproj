@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		536B5B641F0AEFE300A4E8B1 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B5B631F0AEFE300A4E8B1 /* ThirdViewController.swift */; };
 		BA1731841EF80ED6001A5193 /* icon-map.png in Resources */ = {isa = PBXBuildFile; fileRef = BA1731821EF80ED6001A5193 /* icon-map.png */; };
 		BA1731861EF80F05001A5193 /* icon-list.png in Resources */ = {isa = PBXBuildFile; fileRef = BA1731851EF80F05001A5193 /* icon-list.png */; };
 		BA4351641EF7CB42008A0D8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4351631EF7CB42008A0D8F /* AppDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		536B5B631F0AEFE300A4E8B1 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		BA1731821EF80ED6001A5193 /* icon-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-map.png"; sourceTree = "<group>"; };
 		BA1731851EF80F05001A5193 /* icon-list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-list.png"; sourceTree = "<group>"; };
 		BA4351601EF7CB42008A0D8F /* d05.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = d05.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +70,7 @@
 			children = (
 				BA4351631EF7CB42008A0D8F /* AppDelegate.swift */,
 				BA4351651EF7CB42008A0D8F /* FirstViewController.swift */,
+				536B5B631F0AEFE300A4E8B1 /* ThirdViewController.swift */,
 				BA1731851EF80F05001A5193 /* icon-list.png */,
 				BA1731821EF80ED6001A5193 /* icon-map.png */,
 				BA4351671EF7CB42008A0D8F /* SecondViewController.swift */,
@@ -114,6 +117,7 @@
 				TargetAttributes = {
 					BA43515F1EF7CB42008A0D8F = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2T7CZLX2D5;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -161,6 +165,7 @@
 				BA4351681EF7CB42008A0D8F /* SecondViewController.swift in Sources */,
 				BA4351781EF7D93B008A0D8F /* myTableViewCell.swift in Sources */,
 				BA4351641EF7CB42008A0D8F /* AppDelegate.swift in Sources */,
+				536B5B641F0AEFE300A4E8B1 /* ThirdViewController.swift in Sources */,
 				BA4351661EF7CB42008A0D8F /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +289,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2T7CZLX2D5;
 				INFOPLIST_FILE = d05/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-2.d05";
@@ -296,6 +302,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2T7CZLX2D5;
 				INFOPLIST_FILE = d05/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-2.d05";
